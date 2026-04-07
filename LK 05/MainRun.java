@@ -2,10 +2,10 @@ public class MainRun {
     public static void main(String[] args) {
 
         // Data V1
-        PatientProfileV1 v1 = new PatientProfileV1("P001", "Rein", "123456");
+        PatientProfileV1 v1 = new PatientProfileV1("P001", "Phainon", "123456");
 
         // Data V2
-        PatientProfileV2 v2 = new PatientProfileV2("P002", "Cathleya", "654321", "Peanut", "Appendectomy");
+        PatientProfileV2 v2 = new PatientProfileV2("P002", "Mydei", "654321", "Peanut", "Appendectomy");
 
         // Gateway
         IntegrationGateway<PatientProfileV1> gatewayV1 = new IntegrationGateway<>(v1);
